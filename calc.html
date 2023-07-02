@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+    <title>System Improvement Estimator</title>
+</head>
+<body>
+    <div class="main-container-fleet">
+        <div class="container-fleet">
+            <img src="https://www.fleet-lab.com/images/FleetLabWithSpace.png" alt="Logo">
+            <h2>System Improvement Estimator</h2>
+            <!-- Input fields and button -->
+            <div class="dropdowns">
+                <div class="dropdown">
+                    <p>Select a state:</p>
+                    <select id="state"></select>
+                </div>
+                <div class="dropdown">
+                    <p>Select a district:</p>
+                    <select id="district"></select>
+                </div>
+            </div>
+            <p>Number of Afternoon Routes:</p>
+            <input type="number" id="pmroutes" min="0" step="1">
+            <p>Number of Students Transported:</p>
+            <input type="number" id="students" min="0" step="1">
+            <p>Average Route Distance (Miles):</p>
+            <input type="number" id="miles" min="0" step="any">
+            <div class="button-container">
+                <button onclick="calculate()">Calculate Savings</button>
+            </div>
+        </div>
+        <div id="results">
+            <div id="chartContainer">
+                <canvas id="savingsChart"></canvas>
+            </div>
+            <div id="outputContainer">
+                <p id="output" class="output-text"></p>
+            </div>
+        </div>
+    <script src="calculator.js"></script>
+</body>
+</html>

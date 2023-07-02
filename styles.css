@@ -1,0 +1,113 @@
+.main-container-fleet {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width:100%;
+}
+
+h2 {
+    color: #2375b7; 
+    text-align: center; 
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.container-fleet {
+    width: 250px;
+    padding: 20px;
+    border: 1px solid #2375b7; 
+    border-radius: 5px; 
+    background-color: #e8f8ff; 
+    font-family: "Lato", Arial, sans-serif;
+}
+
+#results {
+    width: 900px; 
+    padding: 20px;
+    border: 1px solid #2375b7; 
+    border-radius: 5px; 
+    background-color: #e8f8ff; 
+    font-family: "Lato", Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#chartContainer {
+    width: 60%;
+}
+
+#outputContainer {
+    width: 40%;
+    margin: auto; 
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+input[type="number"], button {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.dropdowns {
+    display: flex;
+    flex-direction: column;
+    /* max-width:150px; */
+    margin: 0 auto;
+}
+  
+.dropdown {
+    width: 100%;
+    margin-bottom: 15px; 
+}
+
+select {
+    width: 100%; 
+    max-width: 100%; 
+    overflow-x: auto;
+}
+
+button {
+    width:200px;
+    background-color: #008CBA; 
+    color: white; 
+    border: none; 
+    border-radius: 25px;
+    padding: 10px; 
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2375b7; 
+}
+
+.output-text {
+    background-color: #d6eefa;  
+    border: 1px solid #2375b7;  
+    border-radius: 5px;  
+    padding: 10px;  
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;  
+}
+
+#contactLink {
+    color: #008CBA;  
+    text-decoration: none;  
+    border: 1px solid #008CBA; 
+    border-radius: 4px; 
+    padding: 1.5px;  
+}
+
+#contactLink:hover {
+    background-color: #008CBA;  
+    color: white;  
+}
