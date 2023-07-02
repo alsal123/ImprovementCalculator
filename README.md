@@ -17,3 +17,5 @@ This is a web-based calculator built for FleetLab. It uses JavaScript to estimat
 4. Adjust values in the forms as desired.
 5. Click "Calculate" to perform the calculation and view the results.
 
+
+![image](https://github.com/alsal123/ImprovementCalculator/assets/108489191/9e348592-b4d5-48a8-9690-823345f26165)
